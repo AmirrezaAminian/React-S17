@@ -46,9 +46,11 @@ const Cart = (props) => {
           Close
         </button>
         {hasItems && <button className={classes.button}>Order</button>}
-      </div>
+      </div> 
+      
     </Modal>
   );
 };
 
 export default Cart;
+//
